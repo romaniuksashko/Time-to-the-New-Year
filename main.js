@@ -3,7 +3,7 @@ const hoursRef = document.querySelector('[data-value="hours"]');
 const minsRef = document.querySelector('[data-value="mins"]');
 const secsRef = document.querySelector('[data-value="secs"]');
 
-const targetDate = new Date("2026-1-1 00:00:00");
+const targetDate = new Date("2027-1-1 00:00:00");
 
 const intervalId = setInterval(() => {
   const dateNow = new Date();
